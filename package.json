@@ -36,6 +36,7 @@
     "build": "node -e \"require('node:fs').rmSync('dist', { recursive: true, force: true })\" && tsc -p tsconfig.json",
     "test": "vitest run",
     "dev": "tsx src/cli/index.ts",
+    "version:bump": "node scripts/bump-version.mjs",
     "prepublishOnly": "npm test && npm run build"
   },
   "engines": {

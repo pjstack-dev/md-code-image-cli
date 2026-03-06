@@ -79,7 +79,7 @@ npm test
 
 ## Publish Notes
 
-Before publishing:
+Local manual publish:
 
 ```bash
 npm test
@@ -88,6 +88,12 @@ npm publish
 ```
 
 `prepublishOnly` already runs test and build automatically.
+
+Automated publish:
+
+- Every push or merge into `main` bumps the patch version automatically
+- The workflow commits the updated `package.json` and `package-lock.json`
+- The same workflow tags the release as `v<version>` and publishes to npm
 
 ## License
 
