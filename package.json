@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Generate syntax-highlighted PNG images from Markdown fenced code blocks.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loupengju/md-code-image-cli"
+  },
   "type": "module",
   "exports": {
     ".": {
