@@ -11,7 +11,7 @@
     }
   },
   "bin": {
-    "md-code-image": "./dist/cli/index.js"
+    "md-code-image": "./dist/cli/bin.js"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
